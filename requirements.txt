@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+SQLAlchemy
+mysql-connector-python
+tensorflow
+streamlit-lottie
