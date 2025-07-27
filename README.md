@@ -118,13 +118,6 @@ This project is a Streamlit-based web application designed to recommend books an
 
    2. Details Page: Allows users to search for books and view recommendations.
 
-#AWS Deployment
-
-  1. Create an EC2 Instance:
-     
-     1.Launch an Amazon EC2 instance with appropriate specifications (e.g., Ubuntu 20.04).
-
-     2.Configure the security group to allow HTTP, HTTPS, and SSH traffic.
 
   2.Install Dependencies:
 
