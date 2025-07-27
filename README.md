@@ -80,8 +80,8 @@ This project is a Streamlit-based web application designed to recommend books an
 
  1. Save the pre-trained files (book_genre_model.keras, vectorizer.pkl, label_binarizer.pkl) in the project directory.
 
- 2. Place the Lottie animation JSON file at the specified path (D:\Tools\VS Code\MDT35\Final_Project\Book_Recommendation_Project\Animation.json).
-
+ 2. Place the Lottie animation JSON file
+   
 5. Run the Application:
   * streamlit run app.py
 
@@ -100,7 +100,7 @@ This project is a Streamlit-based web application designed to recommend books an
 # Code Overview
 
   def get_db_connection():
-     engine = create_engine("mssql+pyodbc://sa:123@Sudhakar\\SQLEXPRESS01/Local_database?driver=ODBC+Driver+17+for+SQL+Server")
+     engine = create_engine()
      return engine
  * Connects to the local SQL Server database.
 
